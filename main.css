@@ -1,0 +1,23 @@
+#icon {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+body {
+    /* 画面が横に広いときは中央に細く */
+    /* 画面が横に狭い時は画面全体に */
+    
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+section > h2 {
+}
